@@ -1,0 +1,33 @@
+NAME
+       kripto 
+
+SYNOPSIS
+       kripto {ed} -f nom_fichier -k cle [-o nom_fichier_sortie]
+       kripto [t] -f nom_fichier
+       kripto [hV]
+
+DESCRIPTION
+           permet de crypter ou de décrypter un message en utilisant l'algorithme de Vigenère. 
+           effectue aussi la cryptanalyse de cet algorithme.
+            
+    -d : indique qu'on veut décrypter le message.
+
+    -e : indique qu'on veut crypter le message.
+
+    -f : le fichier contenant le message.
+
+    -h : affiche l'aide
+
+    -k : cle
+
+    -o : le fichier qui va contenir le resultat.
+    
+    -V : affiche  la version 
+
+    -v : verbose
+
+    -t : permet d'indiquer la taille max de la clé à tester au cours de la cryptanalise.
+
+NOTES :
+     Par défaut ce programme effectue la cryptanalyse d'un message.
+     Attention : CE PROGRAMME NE PREND EN COMPTE QUE DES LETTRES ET EN MAJUSCULES.
